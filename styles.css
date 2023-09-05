@@ -38,13 +38,45 @@
 
   }
 
+  *{
+    font-family: 'Manrope', sans-serif;
+  }
+
   body{
     background-color: var(--Dark_Blue);
+    display: grid;
+    place-items: center;
+    min-height: 100vh;
+  }
+
+  main{
+    background-color: var(--Dark_Grayish_Blue);
+    border-radius: 20px;
+    padding: 20px;
+    min-width: 30vw;
+    min-height: 15vw;
+
+    text-align: center;
+  }
+
+  p{
+    color: var(--Neon_Green);
+  }
+
+  h1{
+    color: var(--Light_Cyan);
+  }
+
+  button{
+    background-color: var(--Neon_Green);
+    border: none;
+    border-radius: 100%;
   }
 
 .attribution {
     font-size: 11px;
     text-align: center;
+
     position:fixed;
     right:0;
     bottom: 0;
