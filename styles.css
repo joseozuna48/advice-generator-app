@@ -71,6 +71,11 @@
     background-color: var(--Neon_Green);
     border: none;
     border-radius: 100%;
+    padding:10px;
+  }
+
+  button:hover{
+    cursor: pointer;
   }
 
 .attribution {
