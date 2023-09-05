@@ -55,6 +55,7 @@
     padding: 20px;
     min-width: 30vw;
     min-height: 15vw;
+    max-width: 700px;
 
     text-align: center;
   }
@@ -67,11 +68,16 @@
     color: var(--Light_Cyan);
   }
 
+  img{
+    margin: auto;
+  }
+
   button{
     background-color: var(--Neon_Green);
     border: none;
     border-radius: 100%;
     padding:10px;
+    transform: translateY(100%);
   }
 
   button:hover{
